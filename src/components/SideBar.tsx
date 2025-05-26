@@ -26,8 +26,11 @@ function SideBar() {
                     return (
                         <li
                             key={item.path}
-                            className={`cursor-pointer px-4 py-2 rounded transition-colors ${activeItem === item.path ? 'bg-[#000000] text-[#FFFFFF]' : ''
-                                }`}
+                            className={`cursor-pointer px-4 py-2 rounded transition-colors ${
+                                (activeItem === item.path || (!activeItem && item.path === '/dashboard')) 
+                                ? 'bg-[#000000] text-[#FFFFFF]' 
+                                : ''
+                            }`}
                         >
                             <Link href={item.path} onClick={() => handleExpand(item.path)}>{item.name}
                             </Link>
