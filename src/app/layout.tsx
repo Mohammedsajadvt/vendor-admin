@@ -1,33 +1,25 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./styles/globals.css";
+import type { Metadata } from 'next';
+import { Manrope } from 'next/font/google';
+import '@/styles/globals.css';
+import RootLayoutClient from './RootLayoutClient';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const manrope = Manrope({
+  subsets: ['latin'],
+  variable: '--font-manrope',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
-  title: "Vendor",
-  description: "Vendor App Admin",
+  title: 'Vendor',
+  description: 'Vendor App Admin',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${manrope.variable} font-sans`} cz-shortcut-listen="true"
+       data-new-gr-c-s-check-loaded="14.1235.0" data-gr-ext-installed="">
+        <RootLayoutClient>{children}</RootLayoutClient>
       </body>
     </html>
   );
