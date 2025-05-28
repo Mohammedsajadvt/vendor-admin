@@ -12,7 +12,7 @@ export default function DashboardLayout({
       <SideBar/>
       <div className="flex flex-col flex-1 ml-64">
         <Navbar value={"https://picsum.photos/id/237/200/300"}/>
-        <main className="flex-1 p-6">{children}</main>
+        <main className="flex-1 p-6 bg-[#F8F8FB]">{children}</main>
       </div>
     </div>
   );
