@@ -1,0 +1,18 @@
+{
+  "Dashboard": "Dashboard",
+  "Customers": "Customers",
+  "Active": "Active",
+  "Inactive": "Inactive",
+  "Vendors": "Vendors",
+  "Equipments": "Equipments",
+  "Paused": "Paused",
+  "OnRent": "On Rent",
+  "Count_Active": "50",
+  "Count_Inactive": "200",
+  "Count_Paused": "250",
+  "Count_OnRent": "68",
+  "Count_Vendors": "128",
+  "Count_Equipments": "2",
+  "Masters": "Masters",
+  "Reports": "Reports"
+}

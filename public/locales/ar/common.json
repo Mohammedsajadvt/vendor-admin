@@ -1,0 +1,18 @@
+{
+  "Dashboard": "لوحة التحكم",
+  "Customers": "العملاء",
+  "Active": "نشط",
+  "Inactive": "غير نشط",
+  "Vendors": "الموردون",
+  "Equipments": "المعدات",
+  "Paused": "متوقف",
+  "OnRent": "قيد الإيجار",
+  "Count_Active": "٥٠",
+  "Count_Inactive": "٢٠٠",
+  "Count_Paused": "٢٥٠",
+  "Count_OnRent": "٦٨",
+  "Count_Vendors": "١٢٨",
+  "Count_Equipments": "٢",
+  "Masters": "الإدارة",
+  "Reports": "التقارير"
+}
